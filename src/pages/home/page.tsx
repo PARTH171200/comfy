@@ -610,7 +610,7 @@ useEffect(() => {
               href="tel:+919876543210"
               className="text-2xl md:text-3xl font-bold text-white hover:text-[#FFD54F] transition-colors cursor-pointer"
             >
-              +91 98765 43210
+              +91 98491 59427
             </a>
           </div>
         </div>
@@ -682,7 +682,7 @@ useEffect(() => {
                 <li className="flex items-center gap-3 text-sm text-gray-600">
                   <i className="ri-phone-line text-[#2563EB] text-lg"></i>
                   <a href="tel:+919876543210" className="hover:text-[#1E3A8A] transition-colors cursor-pointer">
-                    +91 98765 43210
+                    +91 98491 59427
                   </a>
                 </li>
                 <li className="flex items-center gap-3 text-sm text-gray-600">
@@ -714,7 +714,7 @@ useEffect(() => {
               rel="noopener noreferrer"
               className="text-sm text-gray-500 hover:text-[#1E3A8A] transition-colors cursor-pointer"
             >
-              Powered by Readdy
+              Powered by Webora Solutions LLP
             </a>
           </div>
         </div>

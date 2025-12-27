@@ -1,6 +1,34 @@
 import { Product } from '@/types/product';
-import comfyGrand from '../assets/spring/comfy-grand.jpg';
-
+import comfyGrand from '../assets/spring/comfy-grand.png';
+import majesty from '../assets/spring/majesty.png';
+import springRush from '../assets/spring/spring-rush.png';
+import spineCare from '../assets/spring/spine-care.png';
+import comfypedicPlus from '../assets/spring/comfypedic-plus.png';
+import memoryDelight from '../assets/spring/memory-delight.png';
+import foamyLatex from '../assets/spring/foamy-latex.png';
+import superBuddy from '../assets/spring/super-buddy.png';
+import sisalPlus from '../assets/spring/sisal-plus.png';
+import elitePLus from '../assets/spring/elite-plus.png';
+import springZing from '../assets/spring/spring-zing.png';
+import citrus from '../assets/spring/citrus.png';
+import bliss from '../assets/spring/bliss.png';
+import fizzDeluxe from '../assets/spring/fizz-deluxe.png';
+import supreme from '../assets/spring/supreme.png';
+import comfyGrandConstruction from '../assets/layers/comfy-grand-construction.png';
+import majestyConstruction from '../assets/layers/majesty-construction.png';
+import springRushConstruction from '../assets/layers/spring-rush-construction.png';
+import spineCareConstruction from '../assets/layers/spine-care-construction.png';
+import comfypedicPlusConstruction from '../assets/layers/comfypedic-plus-construction.png';
+import memoryDelightConstruction from '../assets/layers/memory-delight-construction.png';
+import foamyLatexConstruction from '../assets/layers/foamy-latex-construction.png';
+import superBuddyConstruction from '../assets/layers/super-buddy-construction.png';
+import sisalPlusConstruction from '../assets/layers/sisal-plus-construction.png';
+import elitePlusConstruction from '../assets/layers/elite-plus-construction.png';
+import springZingConstruction from '../assets/layers/spring-zing-construction.png';
+import citrusConstruction from '../assets/layers/citrus-construction.png';
+import blissConstruction from '../assets/layers/bliss-construction.png';
+import fizzDeluxeConstruction from '../assets/layers/fizz-deluxe-construction.png';
+import supremeConstruction from '../assets/layers/supreme-construction.png';
 
 export const products: Product[] = [
   /* =========================
@@ -14,6 +42,7 @@ export const products: Product[] = [
       'Premium spring mattress offering balanced comfort, superior airflow, and long-lasting durability.',
     warranty: '10 Years Warranty',
     image: comfyGrand,
+    constructionImage: comfyGrandConstruction,
     features: [
       'Advanced spring support system',
       'Enhanced airflow',
@@ -28,6 +57,8 @@ export const products: Product[] = [
     description:
       'Luxury spring mattress engineered for superior spinal alignment and comfort.',
     warranty: '10 Years Warranty',
+    image: majesty,
+    constructionImage: majestyConstruction,
     features: [
       'High tensile spring technology',
       'Pressure relief comfort layers',
@@ -42,6 +73,8 @@ export const products: Product[] = [
     description:
       'Responsive spring mattress designed for bounce, support, and everyday comfort.',
     warranty: '8 Years Warranty',
+    image: springRush,
+    constructionImage: springRushConstruction,
     features: [
       'Responsive spring core',
       'Balanced firmness',
@@ -50,9 +83,72 @@ export const products: Product[] = [
     ],
   },
 
+  {
+    slug: 'elite-plus',
+    category: 'Spring Mattress',
+    name: 'Elite Plus',
+    description:
+      'Premium spring mattress with advanced support and luxurious comfort.',
+    warranty: '10 Years Warranty',
+    image: elitePLus,
+    constructionImage: elitePlusConstruction,
+    features: [
+      'Advanced spring system',
+      'Luxurious comfort layers',
+      'Enhanced durability',
+      'Premium fabric finish',
+    ],
+  },
+  {
+    slug: 'spring-zing',
+    category: 'Spring Mattress',
+    name: 'Spring Zing',
+    description:
+      'Affordable spring mattress offering reliable support and comfort for everyday use.',
+    warranty: '7 Years Warranty',
+    image: springZing,
+    constructionImage: springZingConstruction,
+    features: [
+      'Durable spring core',
+      'Comfortable firmness',
+      'Good airflow',
+      'Value for money',
+    ],
+  },
+
   /* =========================
      ORTHOPEDIC MATTRESSES
   ========================== */
+  {slug: 'citrus',
+    category: 'Orthopedic Mattress',
+    name: 'Citrus',
+    description:
+      'Orthopedic mattress designed to provide optimal support and alleviate pressure points.',
+    warranty: '10 Years Warranty',
+    image: citrus,
+    constructionImage: citrusConstruction,
+    features: [
+      'Ergonomic orthopedic support',
+      'Pressure relief design',
+      'Firm comfort structure',
+      'Recommended by specialists',
+    ],
+  },
+  {slug: 'bliss',
+    category: 'Orthopedic Mattress',
+    name: 'Bliss',
+    description:
+      'Comfort-oriented orthopedic mattress that combines support with plush comfort layers.',
+    warranty: '10 Years Warranty',
+    image: bliss,
+    constructionImage: blissConstruction,
+    features: [
+      'Orthopedic support system',
+      'Plush comfort layers',
+      'Reduces pressure points',
+      'Ideal for restful sleep',
+    ],
+  },
   {
     slug: 'spine-care',
     category: 'Orthopedic Mattress',
@@ -60,6 +156,8 @@ export const products: Product[] = [
     description:
       'Orthopedic mattress specially designed to support the spine and reduce back pain.',
     warranty: '10 Years Warranty',
+    image: spineCare,
+    constructionImage: spineCareConstruction,
     features: [
       'Orthopedic spine support',
       'Firm comfort structure',
@@ -74,6 +172,8 @@ export const products: Product[] = [
     description:
       'Advanced orthopedic mattress combining firmness and comfort for healthy sleep.',
     warranty: '10 Years Warranty',
+    image: comfypedicPlus,
+    constructionImage: comfypedicPlusConstruction,
     features: [
       'Dual-layer orthopedic support',
       'Even weight distribution',
@@ -85,6 +185,38 @@ export const products: Product[] = [
   /* =========================
      FOAM MATTRESSES
   ========================== */
+  {slug: 'fizz-deluxe',
+    category: 'Foam Mattress',
+    name: 'Fizz Deluxe',
+    description:
+      'Deluxe foam mattress offering a blend of softness and support for a restful sleep experience.',
+    warranty: '5 Years Warranty',
+    image: fizzDeluxe,
+    constructionImage: fizzDeluxeConstruction,
+    features: [
+      'Multi-layer foam construction',
+      'Soft yet supportive feel',
+      'Temperature regulation',
+      'Durable foam materials',
+    ],
+  },
+
+  {slug: 'supreme',
+    category: 'Foam Mattress',
+    name: 'Supreme',
+    description:
+      'High-end foam mattress designed for ultimate comfort and pressure relief.',
+    warranty: '5 Years Warranty',
+    image: supreme,
+    constructionImage: supremeConstruction,
+    features: [
+      'Premium memory foam layers',
+      'Pressure relief technology',
+      'Cooling gel infusion',
+      'Long-lasting comfort',
+    ],
+  },
+
   {
     slug: 'memory-delight',
     category: 'Foam Mattress',
@@ -92,6 +224,8 @@ export const products: Product[] = [
     description:
       'Memory foam mattress that adapts to body shape for personalized comfort.',
     warranty: '5 Years Warranty',
+    image: memoryDelight,
+    constructionImage: memoryDelightConstruction,
     features: [
       'High-density memory foam',
       'Body contouring support',
@@ -106,6 +240,8 @@ export const products: Product[] = [
     description:
       'Latex foam mattress offering natural elasticity and superior breathability.',
     warranty: '5 Years Warranty',
+    image: foamyLatex,
+    constructionImage: foamyLatexConstruction,
     features: [
       'Latex-infused foam',
       'Natural bounce',
@@ -124,6 +260,8 @@ export const products: Product[] = [
     description:
       'Eco-friendly coir mattress delivering firm support and excellent airflow.',
     warranty: '2 Years Warranty',
+    image: superBuddy,
+    constructionImage: superBuddyConstruction,
     features: [
       'Natural coir layers',
       'Firm back support',
@@ -132,12 +270,14 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: 'sigal-plus',
+    slug: 'sisal-plus',
     category: 'Coir Mattress',
-    name: 'Sigal Plus',
+    name: 'Sisal Plus',
     description:
       'Sturdy coir mattress designed for everyday comfort and durability.',
     warranty: '2 Years Warranty',
+    image: sisalPlus,
+    constructionImage: sisalPlusConstruction,
     features: [
       'Strong coir base',
       'Consistent firmness',
@@ -149,32 +289,6 @@ export const products: Product[] = [
   /* =========================
      ROLLABLE / FOLDING
   ========================== */
-  {
-    slug: 'rollable-mattress',
-    category: 'Rollable Mattress',
-    name: 'Rollable Mattress',
-    description:
-      'Portable rollable mattress ideal for guests, travel, and flexible usage.',
-    warranty: '1 Year Warranty',
-    features: [
-      'Easy to roll and store',
-      'Lightweight design',
-      'Comfortable foam layers',
-      'Perfect for temporary use',
-    ],
-  },
-  {
-    slug: 'folding-mattress',
-    category: 'Rollable Mattress',
-    name: 'Folding Mattress',
-    description:
-      'Convenient folding mattress designed for space-saving comfort.',
-    warranty: '1 Year Warranty',
-    features: [
-      'Foldable design',
-      'Space-saving solution',
-      'Comfortable sleeping surface',
-      'Easy maintenance',
-    ],
-  },
+  
+  
 ];

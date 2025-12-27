@@ -49,14 +49,14 @@ export default function ProductDetailPage() {
 
             <div className="flex gap-4">
               <a
-                href="tel:+919876543210"
+                href="tel:+919849159427"
                 className="px-6 py-3 bg-[#1E3A8A] text-white rounded-full font-semibold hover:bg-[#163174]"
               >
                 Call Now
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919849159427"
                 target="_blank"
                 className="px-6 py-3 bg-green-500 text-white rounded-full font-semibold hover:bg-green-600"
               >
@@ -65,23 +65,15 @@ export default function ProductDetailPage() {
             </div>
           </div>
 
-          {/* Right */}
-          <div>
-            <h3 className="text-xl font-bold text-[#1E3A8A] mb-4">
-              Key Features
-            </h3>
-            <ul className="space-y-3">
-              {product.features.map((feature, index) => (
-                <li
-                  key={index}
-                  className="flex items-start gap-3 text-gray-600"
-                >
-                  <span className="text-[#FFD54F] font-bold">✔</span>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Right – Mattress Construction Image */}
+<div className="bg-white rounded-3xl shadow-lg p-8 flex items-center justify-center">
+  <img
+    src={product.constructionImage}
+    alt={`${product.name} construction`}
+    className="max-h-[520px] w-auto object-contain"
+  />
+</div>
+
         </div>
       </div>
     </div>

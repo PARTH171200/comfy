@@ -1,5 +1,8 @@
 import comfortPillow from '@/assets/accessories/comfort-pillow.jpg';
-
+import memoryPillow from '@/assets/accessories/memory-pillow.jpg';
+import mattressProtector from '@/assets/accessories/mattress-protector.jpg';
+import mattressTopper from '@/assets/accessories/mattress-topper.jpg';
+import bedCover from '@/assets/accessories/bed-cover.jpg';
 
 import { Accessory } from '@/types/accessories';
 

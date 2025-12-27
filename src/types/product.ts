@@ -11,4 +11,5 @@ export type Product = {
   warranty: string;
   features: string[];
   image: string;
+  constructionImage: string;
 };
