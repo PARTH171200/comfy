@@ -126,23 +126,21 @@ useEffect(() => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 w-full">
           <div className="max-w-2xl">
             <img
-              src={Croverlogo}
-              alt="Comfy Mattresses"
-              className="    
-                h-28 md:h-36 lg:h-44 
-                w-auto 
-                mb-14
-                drop-shadow-[0_18px_35px_rgba(0,0,0,0.65)]
-                bg-white/5
-                backdrop-blur-sm
-                px-6 py-4
-                rounded-2xl
-                border border-white/10
-              "
-            />
+  src={Croverlogo}
+  alt="Comfy Mattresses"
+  className="
+    h-28 md:h-36 lg:h-44
+    w-auto
+    mb-6
+    drop-shadow-2xl
+  "
+/>
+
+
             <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight font-['Playfair_Display',serif]">
   Feel the Comfort.<br />Get Rid of Exhaustion.
 </h1>
+
 
 <p className="text-lg md:text-xl text-[#FFE5A0] mb-12 leading-relaxed max-w-xl">
   Comfy mattresses are crafted to provide deeper sleep, superior support,
@@ -707,14 +705,14 @@ useEffect(() => {
                     href="mailto:info@comfymattresses.com"
                     className="hover:text-[#1E3A8A] transition-colors cursor-pointer"
                   >
-                    info@comfymattresses.com
+                    laxmipathi@comfymattresses.in
                   </a>
                 </li>
                 <li className="flex items-start gap-3 text-sm text-gray-600">
                   <i className="ri-map-pin-line text-[#2563EB] text-lg mt-0.5"></i>
                   <span>
-                    123 Sleep Street, Comfort Nagar,<br />
-                    Hyderabad, Telangana, India - 500081
+                    Plot No : 38, Phase - 3, Cherlapalli<br />
+                    Hyderabad, Telangana, India - 500051
                   </span>
                 </li>
               </ul>
