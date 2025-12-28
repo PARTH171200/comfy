@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo3.png';
+import Croverlogo from '../../assets/logo4.png';
 import back from '../../assets/back.jpg';
 import { products } from '@/data/products';
 
@@ -58,7 +59,12 @@ useEffect(() => {
           <img
   src={logo}
   alt="Comfy Mattresses"
-  className="h-14 md:h-16 w-auto object-contain drop-shadow-lg"
+  className="  h-20 md:h-25
+      w-auto 
+      object-contain 
+      scale-110 md:scale-125
+      drop-shadow-[0_6px_12px_rgba(0,0,0,0.25)]
+      transition-transform duration-300"
 />
 
           <div className="hidden md:flex items-center gap-8">
@@ -120,9 +126,19 @@ useEffect(() => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 w-full">
           <div className="max-w-2xl">
             <img
-              src="https://static.readdy.ai/image/02a8611c5df361eb312f9b61ff56b49b/88e91527691e46e5fadd6202ceaef3bc.jpeg"
+              src={Croverlogo}
               alt="Comfy Mattresses"
-              className="h-20 w-auto mb-12"
+              className="    
+                h-28 md:h-36 lg:h-44 
+                w-auto 
+                mb-14
+                drop-shadow-[0_18px_35px_rgba(0,0,0,0.65)]
+                bg-white/5
+                backdrop-blur-sm
+                px-6 py-4
+                rounded-2xl
+                border border-white/10
+              "
             />
             <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight font-['Playfair_Display',serif]">
   Feel the Comfort.<br />Get Rid of Exhaustion.
